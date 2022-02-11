@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305625A027B5FC7200674896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3056259F27B5FC7200674896 /* AppDelegate.swift */; };
+		305625A227B5FC7200674896 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305625A127B5FC7200674896 /* SceneDelegate.swift */; };
+		305625A427B5FC7200674896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305625A327B5FC7200674896 /* ViewController.swift */; };
+		305625A727B5FC7200674896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305625A527B5FC7200674896 /* Main.storyboard */; };
+		305625AA27B5FC7200674896 /* WordGarden.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 305625A827B5FC7200674896 /* WordGarden.xcdatamodeld */; };
+		305625AC27B5FC7800674896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305625AB27B5FC7800674896 /* Assets.xcassets */; };
+		305625AF27B5FC7800674896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305625AD27B5FC7800674896 /* LaunchScreen.storyboard */; };
+		305625BA27B5FC7900674896 /* WordGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305625B927B5FC7900674896 /* WordGardenTests.swift */; };
+		305625C427B5FC7900674896 /* WordGardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305625C327B5FC7900674896 /* WordGardenUITests.swift */; };
+		305625C627B5FC7900674896 /* WordGardenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305625C527B5FC7900674896 /* WordGardenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		305625B627B5FC7900674896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3056259427B5FC7200674896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3056259B27B5FC7200674896;
+			remoteInfo = WordGarden;
+		};
+		305625C027B5FC7900674896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3056259427B5FC7200674896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3056259B27B5FC7200674896;
+			remoteInfo = WordGarden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3056259C27B5FC7200674896 /* WordGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3056259F27B5FC7200674896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		305625A127B5FC7200674896 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		305625A327B5FC7200674896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		305625A627B5FC7200674896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		305625A927B5FC7200674896 /* WordGarden.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordGarden.xcdatamodel; sourceTree = "<group>"; };
+		305625AB27B5FC7800674896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305625AE27B5FC7800674896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		305625B027B5FC7800674896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305625B527B5FC7900674896 /* WordGardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305625B927B5FC7900674896 /* WordGardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGardenTests.swift; sourceTree = "<group>"; };
+		305625BF27B5FC7900674896 /* WordGardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305625C327B5FC7900674896 /* WordGardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGardenUITests.swift; sourceTree = "<group>"; };
+		305625C527B5FC7900674896 /* WordGardenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGardenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3056259927B5FC7200674896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625B227B5FC7800674896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625BC27B5FC7900674896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3056259327B5FC7200674896 = {
+			isa = PBXGroup;
+			children = (
+				3056259E27B5FC7200674896 /* WordGarden */,
+				305625B827B5FC7900674896 /* WordGardenTests */,
+				305625C227B5FC7900674896 /* WordGardenUITests */,
+				3056259D27B5FC7200674896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3056259D27B5FC7200674896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3056259C27B5FC7200674896 /* WordGarden.app */,
+				305625B527B5FC7900674896 /* WordGardenTests.xctest */,
+				305625BF27B5FC7900674896 /* WordGardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3056259E27B5FC7200674896 /* WordGarden */ = {
+			isa = PBXGroup;
+			children = (
+				3056259F27B5FC7200674896 /* AppDelegate.swift */,
+				305625A127B5FC7200674896 /* SceneDelegate.swift */,
+				305625A327B5FC7200674896 /* ViewController.swift */,
+				305625A527B5FC7200674896 /* Main.storyboard */,
+				305625AB27B5FC7800674896 /* Assets.xcassets */,
+				305625AD27B5FC7800674896 /* LaunchScreen.storyboard */,
+				305625B027B5FC7800674896 /* Info.plist */,
+				305625A827B5FC7200674896 /* WordGarden.xcdatamodeld */,
+			);
+			path = WordGarden;
+			sourceTree = "<group>";
+		};
+		305625B827B5FC7900674896 /* WordGardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				305625B927B5FC7900674896 /* WordGardenTests.swift */,
+			);
+			path = WordGardenTests;
+			sourceTree = "<group>";
+		};
+		305625C227B5FC7900674896 /* WordGardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				305625C327B5FC7900674896 /* WordGardenUITests.swift */,
+				305625C527B5FC7900674896 /* WordGardenUITestsLaunchTests.swift */,
+			);
+			path = WordGardenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3056259B27B5FC7200674896 /* WordGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305625C927B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGarden" */;
+			buildPhases = (
+				3056259827B5FC7200674896 /* Sources */,
+				3056259927B5FC7200674896 /* Frameworks */,
+				3056259A27B5FC7200674896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordGarden;
+			productName = WordGarden;
+			productReference = 3056259C27B5FC7200674896 /* WordGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		305625B427B5FC7800674896 /* WordGardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305625CC27B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGardenTests" */;
+			buildPhases = (
+				305625B127B5FC7800674896 /* Sources */,
+				305625B227B5FC7800674896 /* Frameworks */,
+				305625B327B5FC7800674896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305625B727B5FC7900674896 /* PBXTargetDependency */,
+			);
+			name = WordGardenTests;
+			productName = WordGardenTests;
+			productReference = 305625B527B5FC7900674896 /* WordGardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		305625BE27B5FC7900674896 /* WordGardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305625CF27B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGardenUITests" */;
+			buildPhases = (
+				305625BB27B5FC7900674896 /* Sources */,
+				305625BC27B5FC7900674896 /* Frameworks */,
+				305625BD27B5FC7900674896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305625C127B5FC7900674896 /* PBXTargetDependency */,
+			);
+			name = WordGardenUITests;
+			productName = WordGardenUITests;
+			productReference = 305625BF27B5FC7900674896 /* WordGardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3056259427B5FC7200674896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3056259B27B5FC7200674896 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					305625B427B5FC7800674896 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3056259B27B5FC7200674896;
+					};
+					305625BE27B5FC7900674896 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3056259B27B5FC7200674896;
+					};
+				};
+			};
+			buildConfigurationList = 3056259727B5FC7200674896 /* Build configuration list for PBXProject "WordGarden" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3056259327B5FC7200674896;
+			productRefGroup = 3056259D27B5FC7200674896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3056259B27B5FC7200674896 /* WordGarden */,
+				305625B427B5FC7800674896 /* WordGardenTests */,
+				305625BE27B5FC7900674896 /* WordGardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3056259A27B5FC7200674896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305625AF27B5FC7800674896 /* LaunchScreen.storyboard in Resources */,
+				305625AC27B5FC7800674896 /* Assets.xcassets in Resources */,
+				305625A727B5FC7200674896 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625B327B5FC7800674896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625BD27B5FC7900674896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3056259827B5FC7200674896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305625AA27B5FC7200674896 /* WordGarden.xcdatamodeld in Sources */,
+				305625A427B5FC7200674896 /* ViewController.swift in Sources */,
+				305625A027B5FC7200674896 /* AppDelegate.swift in Sources */,
+				305625A227B5FC7200674896 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625B127B5FC7800674896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305625BA27B5FC7900674896 /* WordGardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305625BB27B5FC7900674896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305625C427B5FC7900674896 /* WordGardenUITests.swift in Sources */,
+				305625C627B5FC7900674896 /* WordGardenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		305625B727B5FC7900674896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3056259B27B5FC7200674896 /* WordGarden */;
+			targetProxy = 305625B627B5FC7900674896 /* PBXContainerItemProxy */;
+		};
+		305625C127B5FC7900674896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3056259B27B5FC7200674896 /* WordGarden */;
+			targetProxy = 305625C027B5FC7900674896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		305625A527B5FC7200674896 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305625A627B5FC7200674896 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		305625AD27B5FC7800674896 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305625AE27B5FC7800674896 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		305625C727B5FC7900674896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		305625C827B5FC7900674896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		305625CA27B5FC7900674896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordGarden/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		305625CB27B5FC7900674896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordGarden/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		305625CD27B5FC7900674896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordGarden.app/WordGarden";
+			};
+			name = Debug;
+		};
+		305625CE27B5FC7900674896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordGarden.app/WordGarden";
+			};
+			name = Release;
+		};
+		305625D027B5FC7900674896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordGarden;
+			};
+			name = Debug;
+		};
+		305625D127B5FC7900674896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSLKQ3SKUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileDev.WordGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordGarden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3056259727B5FC7200674896 /* Build configuration list for PBXProject "WordGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305625C727B5FC7900674896 /* Debug */,
+				305625C827B5FC7900674896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305625C927B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305625CA27B5FC7900674896 /* Debug */,
+				305625CB27B5FC7900674896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305625CC27B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305625CD27B5FC7900674896 /* Debug */,
+				305625CE27B5FC7900674896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305625CF27B5FC7900674896 /* Build configuration list for PBXNativeTarget "WordGardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305625D027B5FC7900674896 /* Debug */,
+				305625D127B5FC7900674896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		305625A827B5FC7200674896 /* WordGarden.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				305625A927B5FC7200674896 /* WordGarden.xcdatamodel */,
+			);
+			currentVersion = 305625A927B5FC7200674896 /* WordGarden.xcdatamodel */;
+			path = WordGarden.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3056259427B5FC7200674896 /* Project object */;
+}
